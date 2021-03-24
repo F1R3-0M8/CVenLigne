@@ -1,0 +1,553 @@
+/* GENERAL */
+
+boby{
+  font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    padding: 45px 0 80px 0;
+}
+
+section .heading{
+  text-align: center;
+    padding-bottom: 40px;
+}
+
+section .heading h2{
+  text-transform: uppercase;
+}
+
+.white-divider{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.whitedown-divider{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    margin-top:-30px;
+    margin-right:auto;
+    margin-bottom:10px;
+    margin-left:auto;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a:link
+{
+text-decoration:none;
+}
+
+
+/* ------------------------------------------------>>BODY<<------------------------------------------ */
+
+/* NAVBAR */
+
+.navbar{
+    background: #1061BD;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav{
+    display: inline-block;
+    float: none;
+    vertical-align: top; 
+}
+
+.navbar .navbar-collapse{
+    text-align: center;
+}
+
+.navbar li a{
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover,.navbar-nav li.active a{
+    color: #1061BD !important; 
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle{
+    border-style: none;
+}
+
+.icon-bar{
+    background-color: #fff !important;
+}
+
+/*--------------------------------------BUTTON CONTACT------------------------------*/
+#modalContact {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 2em;
+    margin: -2.5em 0 0 0;
+    z-index: 5;
+    background: #fff;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    border: solid rgba(105,105,105,0.4);
+    border-left: none;
+    padding: 0.5em 0.5em 0.5em 0.3em;
+    box-shadow: 0 0.6px 2px black;
+    border-radius: 0.4em 3em 3em 0.4em;
+}
+
+#modalContact:hover {
+    width: 2.1em;
+    border: solid rgba(0,0,0,0.6);
+}
+
+#modalContact .glyphicon-envelope {
+    color: #1061BD;
+    margin-top: 3px;
+}
+
+.modal-content {    
+/*    background-color: rgba(105,105,105,1);*/
+    background-image: url("https://ekladata.com/nMxNG2x9r25UuHI1KEbxcyPao_Y.jpg");
+    opacity: .92;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px !important ;
+    width: 380px !important ;
+    border-radius: 40px 40px 40px 40px ;
+    box-shadow: 0 4px 8px rgba(0,0,0,.4);
+}
+
+.modal-header button {
+    margin-top: 7px !important;
+    margin-right: 10px !important;
+    color: black !important;
+    opacity: .6;
+}
+
+.modal-header button:hover {
+    color: #fff !important;
+    opacity: .6;
+    text-shadow: 2px 4px 2px black;
+}
+
+.modal-title {
+    color: #1061BD;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+.modal-dialog {
+    position: absolute;
+    top: 34%;
+    bottom: 0;
+    left: 35px;
+    z-index: 10040;
+    overflow: auto;
+    overflow-y: auto;
+}
+
+.modal-body ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+#tel {
+    text-align: center;
+    color: #fff;
+}
+
+#tel h4 .glyphicon-phone {
+    color: #1061BD;
+}
+
+#mail {
+    text-align: center;
+    color: #fff;
+}
+
+#mail h4 .glyphicon-pencil {
+    color: #1061BD;
+}
+
+#linkedin {
+    text-align: center;
+}
+
+#linkedin h4 a {
+    color: white;
+}
+
+#linkedin h4 a:hover {
+    color: #1061BD;
+}
+
+#linkedin h4 a .glyphicon-qrcode{
+    color: #1061BD;
+}
+
+
+/* SECTION ABOUT */
+
+#about{
+    padding-top: 100px;
+    background: #1061BD;
+    margin-bottom: -60px; 
+    
+}
+
+.profile-picture{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+#about .heading h1{
+    color: #fff;
+    text-transform: uppercase;  
+}
+
+#about .heading h3{
+    color: rgb(105,105,105);
+    text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+.button1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover{
+    background: #fff;
+    color: #1061BD;
+    text-decoration: none;
+}
+
+
+/* SECTION SKILLS */
+
+#skills{
+    background: rgb(105,105,105);
+}
+
+#skills .heading h2{
+    color: #fff;
+}
+
+#skills .progress{
+    height: 100%;
+    margin: 30px 20px;
+    background: #ddd;
+}
+
+#skills .progress-bar{
+    background: #1061BD;
+    
+}
+
+#skills .progress h5{
+    text-shadow: 1px 1px 1px #000;
+}
+
+#logoSkills{
+   
+}
+
+/* SECTION EXPERIENCE */
+
+#experience{
+    background: #1061BD; 
+}
+
+#experience .heading h2{
+    color: #fff;
+}
+
+.timeline{
+    padding: 30px 10px;
+    position: relative;
+}
+
+.timeline:before{
+    top: 20px;
+    bottom: 20px;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: rgb(105,105,105);
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeline > li{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:after{
+    clear: both;
+}
+
+.timeline > li:before, .timeline > li:after{
+    content: " ";
+    display: table;
+}
+
+.timeline li .timeline-badge{
+    color: #1061BD;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+
+.timeline-panel-container{
+    width: 50%;
+    float: left;
+}
+
+.timeline-panel-container-inverted{
+    width: 50%;
+    float: right;
+}
+
+.timeline-panel{
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid rgb(105,105,105);
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
+    background: #fff;
+}
+
+.timeline-panel-container-inverted .timeline-panel{
+    float: left;
+    margin-left: 40px;
+}
+
+.timeline-panel:after{
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline-panel-container-inverted .timeline-panel:after{
+    left: -14px;
+    right: auto;
+    border-right: 14px solid #fff;
+    border-left: 0 solid #fff;
+}
+
+.timeline-heading h3{
+    color: #333;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.timeline-heading h4{
+    color: #1061BD;
+}
+
+.timeline-heading p{
+    color: rgb(105,105,105);
+}
+/* SECTION EDUCATION */
+
+#education{
+    background: rgba(105,105,105,1);
+}
+
+#education .heading h2{
+  color: #fff;     
+}
+
+.education-block{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid rgba(105,105,105,0.5);
+    margin-bottom: 20px;
+}
+
+.education-block h5{
+    color: rgba(105,105,105,1);
+    font-size: 15x;
+    margin-bottom: 15px;
+}
+
+.education-block .glyphicon{
+    font-size: 40px;
+}
+
+.education-block h3{
+    color: #1061BD;
+}
+
+.education-block h4{
+    margin-bottom: 20px;
+}
+
+.education-block p{
+    font-weight: bold;
+    color: rgba(105,105,105,1);
+}
+
+.education-block .blue-divider{
+    margin-bottom: 20px;
+}
+
+/* SECTION PORTFOLIO */
+
+#portfolio{
+    background: #1061BD;
+}
+
+#portfolio .heading h2{
+    color: white;
+}
+
+#portfolio .thumbnail img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%)
+}
+
+#portfolio .thumbnail img:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#row1{
+    margin: 40px auto 0px auto;
+}
+
+#row2{
+    margin: 0px auto 0px auto;
+}
+
+/* SECTION RECOMMANDATIONS */
+
+#recommandations{
+    background: rgba(105,105,105,1);
+}
+
+#recommandations .heading h2{
+    color: #fff;
+}
+
+.carousel-control.left, .carousel-control.right{
+    background-image: none;
+    color: #fff;
+}
+
+.carousel-indicators{
+    bottom: 0px;
+}
+
+.carousel-indicators li{
+    border-color: #1061BD;
+}
+
+.carousel-indicators li.active{
+    background-color: rgba(232, 232, 232, 1)
+}
+
+#myCarousel .item{
+    padding: 40px 30px;
+}
+
+#myCarousel .item h3{
+    color: #1061BD;
+    font-size: italic;
+}
+
+/* FOOTER */
+
+footer{
+    background: #333;
+    padding: 20px 0 40px;
+}
+
+footer .glyphicon{
+    font-size: 25px;
+    margin: 20px;
+    color: #1061BD;
+    height: 30px;
+}
+
+footer .glyphicon:hover{
+    font-size: 30px;
+}
+
+footer h5{
+    color: white;
+    font-weight: normal;
+}
+
+/*--------------------------------------TEST------------------------------*/
+
+/* Boutton contact fix */
+
+/*
+#bouttonContact {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 2em;
+    margin: -2.5em 0 0 0;
+    z-index: 5;
+    background: #fff;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    border: solid #fff;
+    border-left: none;
+    padding: 0.5em 0.5em 0.5em 0.3em;
+    box-shadow: 0 0.6px 2px black;
+    border-radius: 0.4em 3em 3em 0.4em;
+}
+*/
